@@ -5,9 +5,9 @@
   "type": "symfony-bundle",
   "license": "MIT",
   "require": {
-    "symfony/framework-bundle": ">=2.0,<2.4-dev",
-    "sonata-project/admin-bundle": "~2.2.0",
-    "friendsofsymfony/elastica-bundle": "3.0.x-dev"
+    "symfony/framework-bundle": ">=2.0",
+    "sonata-project/admin-bundle": "2.4.x-dev",
+    "friendsofsymfony/elastica-bundle": "3.1.x-dev"
   },
   "autoload": {
     "psr-0": { "Marmelab\\SonataElasticaBundle": "" }
@@ -15,7 +15,7 @@
   "target-dir": "Marmelab/SonataElasticaBundle",
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "3.1-dev"
     }
   }
 }
